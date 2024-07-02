@@ -9,8 +9,7 @@
 
     <!-- Sidebar Menu -->
     <nav class="mt-2">
-        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
-            data-accordion="false">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
             <li class="nav-item">
                 <a href="{{ route('admin.dashboard') }}" class="nav-link">
                     <i class="nav-icon fas fa-th"></i>
@@ -48,27 +47,14 @@
 
             <li class="nav-item">
                 <a href="#" class="nav-link">
-                    <i class="nav-icon fas fa-circle nav-icon"></i>
+                    <i class='fas fa-map-marker-alt' style='font-size:24px'></i>
                     <p>
-                        Blog
-                        <i class="fas fa-angle-left right"></i>
+                        {{ __(' Locations') }}
                     </p>
                 </a>
-                <ul class="nav nav-treeview" style="display: none;">
-                    <li class="nav-item">
-                        <a href="{{ route('admin.categories.index') }}" class="nav-link">
-                            <i class="far fa-circle nav-icon"></i>
-                            <p>Category</p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="{{ route('admin.blogs.index') }}" class="nav-link">
-                            <i class="far fa-circle nav-icon"></i>
-                            <p>Add Blog</p>
-                        </a>
-                    </li>
-                </ul>
             </li>
+
+
         </ul>
     </nav>
     <!-- /.sidebar-menu -->

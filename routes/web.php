@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -25,8 +26,8 @@ Route::group(['middleware' => ['is_admin','auth'], 'prefix' => 'admin', 'as' => 
     Route::resource('travel_packages.galleries', \App\Http\Controllers\Admin\GalleryController::class)->except(['create', 'index','show']);
     // categories
     Route::resource('categories', \App\Http\Controllers\Admin\CategoryController::class)->except('show');
-    // blogs
-    Route::resource('blogs', \App\Http\Controllers\Admin\BlogController::class)->except('show');
+    // locations
+    Route::resource('locations', \App\Http\Controllers\Admin\LocationController::class)->except('show');
     // profile
     Route::get('users', [\App\Http\Controllers\UserController::class, 'index'])->name('users.index');
     Route::get('profile', [\App\Http\Controllers\ProfileController::class, 'show'])->name('profile.show');
@@ -37,13 +38,13 @@ Route::get('/', [\App\Http\Controllers\HomeController::class, 'index'])->name('h
 // travel packages
 Route::get('travel-packages',[\App\Http\Controllers\TravelPackageController::class, 'index'])->name('travel_package.index');
 Route::get('travel-packages/{travel_package:slug}',[\App\Http\Controllers\TravelPackageController::class, 'show'])->name('travel_package.show');
-// blogs
-Route::get('blogs', [\App\Http\Controllers\BlogController::class, 'index'])->name('blog.index');
-Route::get('blogs/{blog:slug}', [\App\Http\Controllers\BlogController::class, 'show'])->name('blog.show');
-Route::get('blogs/category/{category:slug}', [\App\Http\Controllers\BlogController::class, 'category'])->name('blog.category');
+// location
+Route::get('Location', [\App\Http\Controllers\LokasiWisatacontroller::class, 'index'])->name('location.index');
 // contact
 Route::get('contact', function() {
     return view('contact');
 })->name('contact');
+//location
+
 // booking
 Route::post('booking', [App\Http\Controllers\BookingController::class, 'store'])->name('booking.store');

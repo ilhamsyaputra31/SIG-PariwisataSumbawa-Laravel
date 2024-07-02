@@ -37,12 +37,12 @@
 
           <div class="contact__content">
             <div class="contact__data">
-              <span class="section__subtitle">Need Help</span>
-              <h2 class="section__title">Don't hesitate to contact us</h2>
+              <span class="section__subtitle">Butuh Bantuan</span>
+              <h2 class="section__title">Jangan ragu untuk menghubungi kami</h2>
               <p class="contact__description">
-                Is there a problem finding places for yout next trip? Need a
-                guide in first trip or need a consultation about traveling? just
-                contact us.
+                Apakah ada masalah menemukan tempat untuk perjalanan Anda berikutnya? Butuh
+                Panduan di First Trip atau Butuh Konsultasi Tentang Traveling? Hubungi
+                Saja Kami!
               </p>
             </div>
 
@@ -52,7 +52,7 @@
                   <i class="bx bxs-phone-call"></i>
                   <div>
                     <h3 class="contact__card-title">Call</h3>
-                    <p class="contact__card-description">022.321.165.19</p>
+                    <p class="contact__card-description">+62 878 6101 5240</p>
                   </div>
                 </div>
 
@@ -63,7 +63,7 @@
                   <i class="bx bxs-message-rounded-dots"></i>
                   <div>
                     <h3 class="contact__card-title">Whatsapp</h3>
-                    <p class="contact__card-description">022.321.165.19</p>
+                    <p class="contact__card-description">+62 878 6101 5240</p>
                   </div>
                 </div>
 
@@ -74,7 +74,7 @@
                   <i class="bx bxs-video"></i>
                   <div>
                     <h3 class="contact__card-title">Video Call</h3>
-                    <p class="contact__card-description">022.321.165.19</p>
+                    <p class="contact__card-description">+62 878 6101 5240</p>
                   </div>
                 </div>
 
@@ -87,7 +87,7 @@
                   <i class="bx bxs-phone-call"></i>
                   <div>
                     <h3 class="contact__card-title">Message</h3>
-                    <p class="contact__card-description">022.321.165.19</p>
+                    <p class="contact__card-description">+62 878 6101 5240</p>
                   </div>
                 </div>
 
